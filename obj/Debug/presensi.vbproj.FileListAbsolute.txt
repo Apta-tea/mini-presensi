@@ -1,0 +1,15 @@
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\bin\Debug\presensi.exe
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\bin\Debug\presensi.pdb
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\bin\Debug\presensi.xml
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\presensi.vbproj.GenerateResource.Cache
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\presensi.exe
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\presensi.xml
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\presensi.pdb
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\WindowsApplication1.Absen.resources
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\WindowsApplication1.dashboard.resources
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\WindowsApplication1.log.resources
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\WindowsApplication1.admin.resources
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\presensi.vbprojResolveAssemblyReference.cache
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\bin\Debug\presensi.exe.config
+C:\Users\FA\Documents\Visual Studio 2012\Projects\presensi\presensi\obj\Debug\WindowsApplication1.AboutBox1.resources
