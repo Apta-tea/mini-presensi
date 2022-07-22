@@ -1,0 +1,29 @@
+Imports System.Data.OleDb
+Module konek
+    Public Conn As OleDbConnection
+    Public cmd As OleDbCommand
+    Public da As OleDbDataAdapter
+    Public ds As New DataSet
+    Public dr As OleDbDataReader
+    Public conf As Boolean
+    Dim LokasiDB As String
+    Public Sub Koneksi()
+        LokasiDB = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=employee.accdb;Jet OLEDB:Database Password='12345'"
+        Conn = New OleDbConnection(LokasiDB)
+        If Conn.State = ConnectionState.Closed Then Conn.Open()
+    End Sub
+    Sub jalankansql(ByVal sQl As String)
+        Dim objcmd As New System.Data.OleDb.OleDbCommand
+        Call Koneksi()
+        Try
+            objcmd.Connection = Conn
+            objcmd.CommandType = CommandType.Text
+            objcmd.CommandText = sQl
+            objcmd.ExecuteNonQuery()
+            objcmd.Dispose()
+            '--MsgBox("Data Sudah Disimpan", vbInformation)
+        Catch ex As Exception
+            MsgBox("Tidak Bisa Menyimpan data" & ex.Message)
+        End Try
+    End Sub
+End Module
